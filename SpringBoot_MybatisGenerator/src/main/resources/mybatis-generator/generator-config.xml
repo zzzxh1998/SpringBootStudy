@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE generatorConfiguration
+        PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"
+        "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
+<generatorConfiguration>
+    
+    <!--执行generator插件生成文件的命令，call mvn mybatis-generator:generator -e-->
+    <!--引入配置文件-->
+    <properties resource="application.yml"></properties>
+    
+    <context id="MySQLTables" targetRuntime="MyBatis3" defaultModelType="flat">
+        <!--公共处置-->
+        <commentGenerator>
+            <!--是否取消自动生成的注释-->
+            <property name="suppressAllComments" value="false"/>
+            <!--是否取消在注释中加上时间-->
+            <property name="suppressDate" value="false"/>
+        </commentGenerator>
+        
+        <!--链接数据库的位置-->
+        <jdbcConnection driverClass="${spring.datasource.driver-class-name}" connectionURL="${spring.datasource.url}" userId="${spring.datasource.username}" password="${spring.datasource.password}"/>
+
+        <!--关于生成实体类的位置-->
+        <!--targetPackage 生成代码的目标目录-->
+        <!--targetProject 目录所属位置-->
+        <javaModelGenerator targetPackage="com.xiaohu.springboot_mybatisgenerator.entity" targetProject="src/main/java">
+            <!-- 在targetPackge的基础上根据schema再生成一层package 默认flase -->
+            <property name="enableSubPackages" value="true"/>
+            <!-- 是否在get方法中 对String类型的字段做空的判断 -->
+            <property name="trimStrings" value="true"/>
+            <!-- 是否生成一个包含所有字段的构造器 -->
+            <property name="constructorBased" value="false"/>
+            <!-- 是否创建一个不可变类-->
+            <property name="immutable" value="false"/>
+        </javaModelGenerator>
+
+        <!--关于生成映射文件的设置-->
+        <sqlMapGenerator targetPackage="mapper" targetProject="src/main/resources">
+            <!--同上-->
+            <property name="enableSubPackages" value="true"/>
+        </sqlMapGenerator>
+
+        <!--关于生成dao层的设置-->
+        <javaClientGenerator type="mapper" targetPackage="com.xiaohu.springboot_mybatisgenerator.dao" targetProject="src/main/java">
+            <!--同上-->
+            <property name="enableSubPackages" value="true"/>
+        </javaClientGenerator>
+
+        <table tableName="mpuser"></table>
+    </context>
+</generatorConfiguration>

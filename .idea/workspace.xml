@@ -1,0 +1,570 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="992182b6-06be-4b49-8321-a914e7542828" name="变更" comment="SpringBoot">
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Comments/pom.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Comments/xiaohu/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Comments/xiaohu/dao/CustomersDaoInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Comments/xiaohu/entity/Customers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Comments/xiaohu/entity/offices.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Comments/xiaohu/entity/orderdetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Comments/xiaohu/entity/orders.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Comments/xiaohu/entity/payments.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Comments/xiaohu/entity/study/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Comments/xiaohu/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Comments/xiaohu/service/CustomersServiceInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Comments/xiaohu/service/Impl/CustomersServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Comments/xiaohu/备忘录.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring Security/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring Security/.idea/Spring Security.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring Security/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring Security/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring Security/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring Security/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring Security/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring Security/.idea/libraries/Maven__com_alibaba_druid_1_2_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring Security/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_12_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring Security/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_12_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring Security/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_12_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring Security/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_12_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring Security/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_12_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring Security/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_12_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring Security/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring Security/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring Security/.idea/libraries/Maven__com_zaxxer_HikariCP_4_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring Security/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_1_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring Security/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_1_3_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring Security/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_2_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring Security/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring Security/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_27.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring Security/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_10_22.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring Security/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_10_22.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring Security/.idea/libraries/Maven__net_minidev_accessors_smart_2_4_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring Security/.idea/libraries/Maven__net_minidev_json_smart_2_4_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring Security/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_14_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring Security/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_14_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring Security/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_52.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring Security/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_52.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring Security/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_52.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring Security/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring Security/.idea/libraries/Maven__org_assertj_assertj_core_3_19_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring Security/.idea/libraries/Maven__org_attoparser_attoparser_2_0_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring Security/.idea/libraries/Maven__org_hamcrest_hamcrest_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring Security/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring Security/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring Security/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring Security/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring Security/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring Security/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring Security/.idea/libraries/Maven__org_mockito_mockito_core_3_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring Security/.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_3_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring Security/.idea/libraries/Maven__org_mybatis_mybatis_3_5_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring Security/.idea/libraries/Maven__org_mybatis_mybatis_spring_2_0_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring Security/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_2_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring Security/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_2_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring Security/.idea/libraries/Maven__org_objenesis_objenesis_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring Security/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring Security/.idea/libraries/Maven__org_ow2_asm_asm_9_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring Security/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring Security/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_32.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring Security/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_32.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring Security/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_5_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring Security/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_5_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring Security/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_5_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring Security/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_5_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring Security/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_5_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring Security/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_5_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring Security/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_security_2_5_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring Security/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_5_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring Security/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_thymeleaf_2_5_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring Security/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_5_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring Security/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_5_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring Security/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_5_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring Security/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_5_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring Security/.idea/libraries/Maven__org_springframework_security_spring_security_config_5_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring Security/.idea/libraries/Maven__org_springframework_security_spring_security_core_5_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring Security/.idea/libraries/Maven__org_springframework_security_spring_security_crypto_5_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring Security/.idea/libraries/Maven__org_springframework_security_spring_security_test_5_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring Security/.idea/libraries/Maven__org_springframework_security_spring_security_web_5_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring Security/.idea/libraries/Maven__org_springframework_spring_aop_5_3_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring Security/.idea/libraries/Maven__org_springframework_spring_beans_5_3_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring Security/.idea/libraries/Maven__org_springframework_spring_context_5_3_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring Security/.idea/libraries/Maven__org_springframework_spring_core_5_3_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring Security/.idea/libraries/Maven__org_springframework_spring_expression_5_3_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring Security/.idea/libraries/Maven__org_springframework_spring_jcl_5_3_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring Security/.idea/libraries/Maven__org_springframework_spring_jdbc_5_3_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring Security/.idea/libraries/Maven__org_springframework_spring_test_5_3_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring Security/.idea/libraries/Maven__org_springframework_spring_tx_5_3_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring Security/.idea/libraries/Maven__org_springframework_spring_web_5_3_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring Security/.idea/libraries/Maven__org_springframework_spring_webmvc_5_3_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring Security/.idea/libraries/Maven__org_thymeleaf_extras_thymeleaf_extras_java8time_3_0_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring Security/.idea/libraries/Maven__org_thymeleaf_extras_thymeleaf_extras_springsecurity5_3_0_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring Security/.idea/libraries/Maven__org_thymeleaf_thymeleaf_3_0_12_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring Security/.idea/libraries/Maven__org_thymeleaf_thymeleaf_spring5_3_0_12_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring Security/.idea/libraries/Maven__org_unbescape_unbescape_1_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring Security/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_8_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring Security/.idea/libraries/Maven__org_yaml_snakeyaml_1_28.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring Security/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring Security/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring Security/Spring-Security-01/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring Security/Spring-Security-01/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring Security/Spring-Security-01/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring Security/Spring-Security-01/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring Security/Spring-Security-01/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring Security/Spring-Security-01/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring Security/Spring-Security-01/src/main/java/com/xiaohu/SpringSecurity01Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring Security/Spring-Security-01/src/main/java/com/xiaohu/controller/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring Security/Spring-Security-01/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring Security/Spring-Security-01/src/test/java/com/xiaohu/SpringSecurity01ApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring Security/Spring-Security-02/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring Security/Spring-Security-02/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring Security/Spring-Security-02/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring Security/Spring-Security-02/src/main/java/com/xiaohu/SpringSecurity02Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring Security/Spring-Security-02/src/main/java/com/xiaohu/config/MyAuthenticationFailureHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring Security/Spring-Security-02/src/main/java/com/xiaohu/config/MyAuthenticationSuccessHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring Security/Spring-Security-02/src/main/java/com/xiaohu/config/MyLogoutSuccessHander.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring Security/Spring-Security-02/src/main/java/com/xiaohu/config/MyUserDetailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring Security/Spring-Security-02/src/main/java/com/xiaohu/config/WebSecurityConfigurer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring Security/Spring-Security-02/src/main/java/com/xiaohu/controller/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring Security/Spring-Security-02/src/main/java/com/xiaohu/controller/IndexController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring Security/Spring-Security-02/src/main/java/com/xiaohu/controller/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring Security/Spring-Security-02/src/main/java/com/xiaohu/controller/LogoutController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring Security/Spring-Security-02/src/main/java/com/xiaohu/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring Security/Spring-Security-02/src/main/java/com/xiaohu/entity/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring Security/Spring-Security-02/src/main/java/com/xiaohu/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring Security/Spring-Security-02/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring Security/Spring-Security-02/src/main/resources/com/xiaohu/mapper/UserDaoMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring Security/Spring-Security-02/src/main/resources/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring Security/Spring-Security-02/src/main/resources/templates/logout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring Security/Spring-Security-02/src/test/java/com/xiaohu/SpringSecurity02ApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBootStudy.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot_AOP/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot_AOP/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot_AOP/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot_AOP/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot_AOP/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot_AOP/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot_AOP/src/main/java/com/xiaohu/springboot_aop/SpringBootAopApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot_AOP/src/main/java/com/xiaohu/springboot_aop/aop/WebLogAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot_AOP/src/main/java/com/xiaohu/springboot_aop/controller/AopController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot_AOP/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot_AOP/src/test/java/com/xiaohu/springboot_aop/SpringBootAopApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot_BasicConfiguration/tomcat/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot_BasicConfiguration/tomcat/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot_BasicConfiguration/tomcat/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot_BasicConfiguration/tomcat/src/main/java/com/xiaohu/tomcat/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot_BasicConfiguration/tomcat/src/main/java/com/xiaohu/tomcat/ServletInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot_BasicConfiguration/tomcat/src/main/java/com/xiaohu/tomcat/TomcatApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot_BasicConfiguration/tomcat/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot_BasicConfiguration/tomcat/src/test/java/com/xiaohu/tomcat/TomcatApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot_Elasticsearch/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot_Elasticsearch/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot_Elasticsearch/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot_Elasticsearch/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot_Elasticsearch/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot_Elasticsearch/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot_Elasticsearch/src/main/java/com/xiaohu/springboot_elasticsearch/SpringBootElasticsearchApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot_Elasticsearch/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot_Elasticsearch/src/test/java/com/xiaohu/springboot_elasticsearch/SpringBootElasticsearchApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot_HelloWorld/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot_HelloWorld/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot_HelloWorld/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot_HelloWorld/src/main/java/com/xiaohu/springboot_helloworld/HelloWorld.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot_HelloWorld/src/main/java/com/xiaohu/springboot_helloworld/SpringBootHelloWorldApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot_HelloWorld/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot_HelloWorld/src/test/java/com/xiaohu/springboot_helloworld/SpringBootHelloWorldApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot_HelloWorld_RUN_Replace/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot_HelloWorld_RUN_Replace/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot_HelloWorld_RUN_Replace/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot_HelloWorld_RUN_Replace/src/main/java/com/xiaohu/springboot_helloworld_run_replace/SpringBootHelloWorldRunReplaceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot_HelloWorld_RUN_Replace/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot_HelloWorld_RUN_Replace/src/main/resources/banner.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot_HelloWorld_RUN_Replace/src/test/java/com/xiaohu/springboot_helloworld_run_replace/SpringBootHelloWorldRunReplaceApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot_JPA/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot_JPA/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot_JPA/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot_JPA/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot_JPA/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot_JPA/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot_JPA/src/main/java/com/xiaohu/springboot_jpa/SpringBootJpaApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot_JPA/src/main/java/com/xiaohu/springboot_jpa/entity/j_user.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot_JPA/src/main/java/com/xiaohu/springboot_jpa/repository/juserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot_JPA/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot_JPA/src/test/java/com/xiaohu/springboot_jpa/SpringBootJpaApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot_Mybatis/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot_Mybatis/crud_start/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot_Mybatis/crud_start/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot_Mybatis/crud_start/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot_Mybatis/crud_start/src/main/java/com/xiaohu/crud_start/CrudStartApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot_Mybatis/crud_start/src/main/java/com/xiaohu/crud_start/controller/HomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot_Mybatis/crud_start/src/main/java/com/xiaohu/crud_start/controller/admin/GoodsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot_Mybatis/crud_start/src/main/java/com/xiaohu/crud_start/controller/admin/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot_Mybatis/crud_start/src/main/java/com/xiaohu/crud_start/controller/admin/UploadDownController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot_Mybatis/crud_start/src/main/java/com/xiaohu/crud_start/controller/admin/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot_Mybatis/crud_start/src/main/java/com/xiaohu/crud_start/entity/Goods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot_Mybatis/crud_start/src/main/java/com/xiaohu/crud_start/entity/PageBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot_Mybatis/crud_start/src/main/java/com/xiaohu/crud_start/entity/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot_Mybatis/crud_start/src/main/java/com/xiaohu/crud_start/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot_Mybatis/crud_start/src/main/java/com/xiaohu/crud_start/interceptor/MyInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot_Mybatis/crud_start/src/main/java/com/xiaohu/crud_start/mapper/GoodsMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot_Mybatis/crud_start/src/main/java/com/xiaohu/crud_start/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot_Mybatis/crud_start/src/main/java/com/xiaohu/crud_start/service/BaseService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot_Mybatis/crud_start/src/main/java/com/xiaohu/crud_start/service/GoodsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot_Mybatis/crud_start/src/main/java/com/xiaohu/crud_start/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot_Mybatis/crud_start/src/main/java/com/xiaohu/crud_start/service/impl/GoodsServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot_Mybatis/crud_start/src/main/java/com/xiaohu/crud_start/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot_Mybatis/crud_start/src/test/java/com/xiaohu/crud_start/CrudStartApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot_MybatisGenerator/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot_MybatisGenerator/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot_MybatisGenerator/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot_MybatisGenerator/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot_MybatisGenerator/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot_MybatisGenerator/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot_MybatisGenerator/src/main/java/com/xiaohu/springboot_mybatisgenerator/SpringBootMybatisGeneratorApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot_MybatisGenerator/src/main/java/com/xiaohu/springboot_mybatisgenerator/dao/MpuserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot_MybatisGenerator/src/main/java/com/xiaohu/springboot_mybatisgenerator/entity/Mpuser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot_MybatisGenerator/src/main/java/com/xiaohu/springboot_mybatisgenerator/entity/MpuserExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot_MybatisGenerator/src/main/java/com/xiaohu/springboot_mybatisgenerator/entity/备忘录.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot_MybatisGenerator/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot_MybatisGenerator/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot_MybatisGenerator/src/main/resources/mapper/MpuserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot_MybatisGenerator/src/main/resources/mybatis-generator/generator-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot_MybatisGenerator/src/test/java/com/xiaohu/springboot_mybatisgenerator/SpringBootMybatisGeneratorApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot_RUN/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot_RUN/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot_RUN/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot_RUN/src/main/java/com/xiaohu/springboot_run/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot_RUN/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot_RUN/src/test/java/com/xiaohu/springboot_run/SpringBootRunApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot_Redis/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot_Redis/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot_Redis/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot_Redis/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot_Redis/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot_Redis/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot_Redis/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot_Redis/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot_Redis/src/main/java/com/example/springboot_redis/SpringBootRedisApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot_Redis/src/main/java/com/example/springboot_redis/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot_Redis/src/main/java/com/example/springboot_redis/service/CacheService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot_Redis/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot_Redis/src/test/java/com/example/springboot_redis/SpringBootRedisApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot_Redis/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot_Redis/target/classes/com/example/springboot_redis/SpringBootRedisApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot_Redis/target/classes/com/example/springboot_redis/entity/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot_Redis/target/classes/com/example/springboot_redis/service/CacheService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot_Redis/target/test-classes/com/example/springboot_redis/SpringBootRedisApplicationTests.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot_Restful/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot_Restful/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot_Restful/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot_Restful/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot_Restful/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot_Restful/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot_Restful/src/main/java/com/xiaohu/springboot_restful/SpringBootRestfulApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot_Restful/src/main/java/com/xiaohu/springboot_restful/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot_Restful/src/main/java/com/xiaohu/springboot_restful/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot_Restful/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot_Restful/src/test/java/com/xiaohu/springboot_restful/SpringBootRestfulApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot_SpringMVC/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot_SpringMVC/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot_SpringMVC/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot_SpringMVC/src/main/java/com/xiaohu/springboot_springmvc/SpringBootSpringMvcApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot_SpringMVC/src/main/java/com/xiaohu/springboot_springmvc/config/MyMVCConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot_SpringMVC/src/main/java/com/xiaohu/springboot_springmvc/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot_SpringMVC/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot_SpringMVC/src/main/resources/templates/test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot_SpringMVC/src/test/java/com/xiaohu/springboot_springmvc/SpringBootSpringMvcApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot_Swegger/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot_Swegger/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot_Swegger/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot_Swegger/src/main/java/com/xiaohu/springboot_swegger/SpringBootSweggerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot_Swegger/src/main/java/com/xiaohu/springboot_swegger/config/SwaggerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot_Swegger/src/main/java/com/xiaohu/springboot_swegger/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot_Swegger/src/main/java/com/xiaohu/springboot_swegger/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot_Swegger/src/main/java/com/xiaohu/springboot_swegger/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot_Swegger/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot_Swegger/src/test/java/com/xiaohu/springboot_swegger/SpringBootSweggerApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot_Tracsactional/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot_Tracsactional/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot_Tracsactional/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot_Tracsactional/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot_Tracsactional/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot_Tracsactional/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot_Tracsactional/src/main/java/com/xiaohu/springboot_tracsactional/SpringBootTracsactionalApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot_Tracsactional/src/main/java/com/xiaohu/springboot_tracsactional/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot_Tracsactional/src/main/java/com/xiaohu/springboot_tracsactional/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot_Tracsactional/src/main/java/com/xiaohu/springboot_tracsactional/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot_Tracsactional/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot_Tracsactional/src/test/java/com/xiaohu/springboot_tracsactional/SpringBootTracsactionalApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringSecurity/B站-三更草堂/SecurityTokenDemo/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringSecurity/B站-三更草堂/SecurityTokenDemo/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringSecurity/B站-三更草堂/SecurityTokenDemo/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringSecurity/B站-三更草堂/SecurityTokenDemo/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringSecurity/B站-三更草堂/SecurityTokenDemo/src/main/java/com/xiaohu/TokenApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringSecurity/B站-三更草堂/SecurityTokenDemo/src/main/java/com/xiaohu/config/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringSecurity/B站-三更草堂/SecurityTokenDemo/src/main/java/com/xiaohu/controller/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringSecurity/B站-三更草堂/SecurityTokenDemo/src/main/java/com/xiaohu/domain/LoginUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringSecurity/B站-三更草堂/SecurityTokenDemo/src/main/java/com/xiaohu/domain/ResponseRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringSecurity/B站-三更草堂/SecurityTokenDemo/src/main/java/com/xiaohu/domain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringSecurity/B站-三更草堂/SecurityTokenDemo/src/main/java/com/xiaohu/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringSecurity/B站-三更草堂/SecurityTokenDemo/src/main/java/com/xiaohu/service/impl/UserDetailServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringSecurity/B站-三更草堂/SecurityTokenDemo/src/main/java/com/xiaohu/utils/FastJsonRedisSerializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringSecurity/B站-三更草堂/SecurityTokenDemo/src/main/java/com/xiaohu/utils/JwtUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringSecurity/B站-三更草堂/SecurityTokenDemo/src/main/java/com/xiaohu/utils/RedisCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringSecurity/B站-三更草堂/SecurityTokenDemo/src/main/java/com/xiaohu/utils/WebUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringSecurity/B站-三更草堂/SecurityTokenDemo/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringSecurity/B站-三更草堂/SecurityTokenDemo/src/main/resources/mapper/MenuMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Springboot_CRUD_STARt/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Springboot_CRUD_STARt/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Springboot_CRUD_STARt/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Springboot_CRUD_STARt/src/main/java/com/xiaohu/springboot_crud_start/SpringbootCrudStaRtApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Springboot_CRUD_STARt/src/main/java/com/xiaohu/springboot_crud_start/entity/Customers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Springboot_CRUD_STARt/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Springboot_CRUD_STARt/src/test/java/com/xiaohu/springboot_crud_start/SpringbootCrudStaRtApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Springboot_ViewLayer/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Springboot_ViewLayer/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Springboot_ViewLayer/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Springboot_ViewLayer/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Springboot_ViewLayer/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Springboot_WEB/aop/aop.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Springboot_WEB/controllerAdvice/controllerAdvice.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_08_ssmp/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_08_ssmp/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_08_ssmp/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_08_ssmp/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_08_ssmp/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_08_ssmp/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_08_ssmp/src/main/java/com/itheima/SSMPApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_08_ssmp/src/main/java/com/itheima/config/MPConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_08_ssmp/src/main/java/com/itheima/controller/BookController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_08_ssmp/src/main/java/com/itheima/controller/BookController2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_08_ssmp/src/main/java/com/itheima/controller/utils/R.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_08_ssmp/src/main/java/com/itheima/dao/BookDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_08_ssmp/src/main/java/com/itheima/domain/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_08_ssmp/src/main/java/com/itheima/service/BookService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_08_ssmp/src/main/java/com/itheima/service/IBookService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_08_ssmp/src/main/java/com/itheima/service/impl/BookServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_08_ssmp/src/main/java/com/itheima/service/impl/BookServiceImpl2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_08_ssmp/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_08_ssmp/src/main/resources/static/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_08_ssmp/src/main/resources/static/js/axios-0.18.0.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_08_ssmp/src/main/resources/static/js/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_08_ssmp/src/main/resources/static/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_08_ssmp/src/main/resources/static/js/vue.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_08_ssmp/src/main/resources/static/pages/books.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_08_ssmp/src/main/resources/static/plugins/elementui/fonts/element-icons.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_08_ssmp/src/main/resources/static/plugins/elementui/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_08_ssmp/src/main/resources/static/plugins/elementui/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_08_ssmp/src/main/resources/static/plugins/font-awesome/css/font-awesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_08_ssmp/src/main/resources/static/plugins/font-awesome/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_08_ssmp/src/main/resources/static/plugins/font-awesome/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_08_ssmp/src/main/resources/static/plugins/font-awesome/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_08_ssmp/src/main/resources/static/plugins/font-awesome/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_08_ssmp/src/main/resources/static/plugins/font-awesome/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_08_ssmp/src/main/resources/static/plugins/font-awesome/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_08_ssmp/src/main/resources/static/plugins/font-awesome/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_08_ssmp/src/test/java/com/itheima/springboot_08_ssmp/Springboot08SsmpApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_08_ssmp/src/test/java/com/itheima/springboot_08_ssmp/dao/BookDaoTestCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_08_ssmp/src/test/java/com/itheima/springboot_08_ssmp/service/BookServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_08_ssmp/src/test/java/com/itheima/springboot_08_ssmp/service/BookServiceTestCase.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\Maven\repository" />
+        <option name="mavenHome" value="D:/Maven/apache-maven-3.6.1" />
+        <option name="useMavenConfig" value="true" />
+        <option name="userSettingsFile" value="D:\Maven\apache-maven-3.6.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2LpAMBVrOBsFr6LbHkx9WJVgmcP" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
+    &quot;last_opened_file_path&quot;: &quot;Z:/JavaStudy/SpringBootStudy&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;模块&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;3db0ff83bb81bef1f9783b8210e82828&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="Z:\JavaStudy\SpringBootStudy" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.SpringBootRestfulApplication">
+    <configuration name="SpringBootElasticsearchApplicationTests.create" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SpringBoot_Elasticsearch" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xiaohu.springboot_elasticsearch.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.xiaohu.springboot_elasticsearch" />
+      <option name="MAIN_CLASS_NAME" value="com.xiaohu.springboot_elasticsearch.SpringBootElasticsearchApplicationTests" />
+      <option name="METHOD_NAME" value="create" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringBootElasticsearchApplicationTests.query" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SpringBoot_Elasticsearch" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xiaohu.springboot_elasticsearch.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.xiaohu.springboot_elasticsearch" />
+      <option name="MAIN_CLASS_NAME" value="com.xiaohu.springboot_elasticsearch.SpringBootElasticsearchApplicationTests" />
+      <option name="METHOD_NAME" value="query" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringBootElasticsearchApplicationTests.testCreateIndex" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SpringBoot_Elasticsearch" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xiaohu.springboot_elasticsearch.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.xiaohu.springboot_elasticsearch" />
+      <option name="MAIN_CLASS_NAME" value="com.xiaohu.springboot_elasticsearch.SpringBootElasticsearchApplicationTests" />
+      <option name="METHOD_NAME" value="testCreateIndex" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringBootElasticsearchApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="SpringBoot_Elasticsearch" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xiaohu.springboot_elasticsearch.SpringBootElasticsearchApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringBootRestfulApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="SpringBoot_Restful" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xiaohu.springboot_restful.SpringBootRestfulApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.SpringBootElasticsearchApplicationTests.query" />
+        <item itemvalue="JUnit.SpringBootElasticsearchApplicationTests.testCreateIndex" />
+        <item itemvalue="JUnit.SpringBootElasticsearchApplicationTests.create" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="992182b6-06be-4b49-8321-a914e7542828" name="变更" comment="" />
+      <created>1676557599820</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1676557599820</updated>
+      <workItem from="1676557601835" duration="764000" />
+      <workItem from="1676649378337" duration="568000" />
+      <workItem from="1676649964748" duration="135000" />
+      <workItem from="1676650107982" duration="165000" />
+      <workItem from="1676650274712" duration="682000" />
+      <workItem from="1676709302200" duration="3836000" />
+      <workItem from="1676724448841" duration="1088000" />
+      <workItem from="1676777664277" duration="4890000" />
+      <workItem from="1676803223964" duration="178000" />
+      <workItem from="1676803452476" duration="70000" />
+      <workItem from="1676803540613" duration="576000" />
+      <workItem from="1676804140332" duration="333000" />
+    </task>
+    <task id="LOCAL-00001" summary="SpringBoot">
+      <created>1676558210759</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1676558210759</updated>
+    </task>
+    <task id="LOCAL-00002" summary="SpringBoot">
+      <created>1676803100670</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1676803100670</updated>
+    </task>
+    <task id="LOCAL-00003" summary="SpringBoot">
+      <created>1676803295536</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1676803295536</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/SpringBoot_Restful" />
+    </ignored-roots>
+    <MESSAGE value="SpringBoot" />
+    <option name="LAST_COMMIT_MESSAGE" value="SpringBoot" />
+  </component>
+</project>

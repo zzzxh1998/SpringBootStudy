@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="htt:www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>用户登陆</title>
+</head>
+<body>
+  <h1>用户登陆</h1>
+<!--  <h2 th:text="${SPRING.SECURITY_LAST_EXCEPTION}"></h2>-->
+  <!--这个post的问题，如果声明了是post请求方式，那么name的属性 必须是”username“和”password“-->
+  <form method="post" th:action="@{/doLogin}">
+    用户名:  <input type="text" name="uname"> <br>
+    密码:    <input name="passwd" type="text"> <br>
+    <input type="submit" value="登陆">
+  </form>
+
+</body>
+</html>

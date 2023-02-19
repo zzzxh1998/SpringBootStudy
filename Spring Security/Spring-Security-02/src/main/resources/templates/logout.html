@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="htt:www.thymeleaf.org"
+      xmlns:sec="http://www.thymeleaf.org/extras/spring-security">
+<head>
+    <meta charset="UTF-8">
+    <title>注销登陆</title>
+</head>
+<body>
+<h1>注销登陆</h1>
+<!--  <h2 th:text="${SPRING.SECURITY_LAST_EXCEPTION}"></h2>-->
+<!--这个post的问题，如果声明了是post请求方式，那么name的属性 必须是”username“和”password“-->
+<form method="post" th:action="@{/bb}">
+
+    <input type="submit" value="注销登陆">
+</form>
+<hr>
+<h1>获取认证用户信息</h1>
+<ul>
+    <li sec:authentication="principal.username"></li>
+    <li sec:authentication="principal.authorities"></li>
+    <li sec:authentication="principal.accountNonExpired"></li>
+    <li sec:authentication="principal.accountNonLocked"></li>
+    <li sec:authentication="principal.credentialsNonExpired"></li>
+</ul>
+</body>
+</html>
